@@ -19,6 +19,22 @@ ll mod = 1e9 + 7;
 const int MAXN = 1e7 + 5;
 int isPrime[MAXN];
 
+// ll f[1005][1005];
+
+// void Tohop()
+// {
+//     for(int i = 1; i <= 1000; i++) f[0][i] = 0;
+//     for(int i = 1; i <= 1000; i++)
+//     {
+//         f[1][i] = i;
+//         f[i][i] = 1;
+//     }
+//     for(int i = 2; i <= 1000; i++)
+//     {
+//         for(int j = 2; j <= i; j++) f[j][i] = (f[j-1][i-1]%mod + f[j][i-1]%mod)%mod;
+//     }
+// }
+
 void sieve()
 {
     for (int i = 2; i <= MAXN; i++)
@@ -53,3 +69,5 @@ int main()
         solve();
     }
 }
+
+
