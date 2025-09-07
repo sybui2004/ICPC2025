@@ -1,0 +1,1 @@
+{"name":"Local: J","url":"d:\\Code\\PTIT\\ICPC2025\\StartICPC\\J.cpp","tests":[{"id":1757213954602,"input":"6\n([]{})\n1 2\n2 3\n3 4\n4 5\n4 6","output":""},{"id":1757214709288,"input":"4\n()()\n1 2\n2 3\n3 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Code\\PTIT\\ICPC2025\\StartICPC\\J.cpp","group":"local","local":true}
